@@ -1,0 +1,65 @@
+peak,slug,observer,h_peak,h_obs,distance,row,date,time,star,el_fe,el_ge
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,3,01/27/25,18:43:07,39 Aquarii,2.571259,2.116652
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,4,01/27/25,19:31:40,HD 217533,2.576620,2.122010
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,5,01/30/25,18:31:22,39 Aquarii (under moon),2.563023,2.108416
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,6,01/30/25,18:36:02,HD 211410,2.572243,2.117636
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,7,01/30/25,19:19:19,HD 217429,2.576189,2.121579
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,8,01/30/25,19:21:19,HD 217721,2.565196,2.110586
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,9,01/30/25,19:52:44,HD 221665,2.557369,2.102761
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,10,01/30/25,19:58:27,Omega1 Aquarii,2.537649,2.083042
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,11,01/30/25,20:08:28,HD 223559,2.551488,2.096874
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,12,01/30/25,20:10:51,HD 223774,2.568583,2.113973
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,13,01/30/25,20:45:31,HD 2345,2.555965,2.101355
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,14,01/31/25,18:27:25,39 Aquarii,2.566379,2.111771
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,15,01/31/25,19:13:47,TYC 5826-746-1,2.542652,2.088042
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,16,01/31/25,19:15:57,HD 217533,2.574791,2.120181
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,17,01/31/25,19:54:23,Omega1 Aquarii,2.562355,2.107747
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,18,01/31/25,20:04:33,HD 223559,2.548747,2.094134
+Pikes Peak,pikes_peak,Dr. Heffron,4300,2073,50551,19,01/31/25,20:06:57,HD 223774,2.562789,2.108180
+Blodgett Peak,blodgett_peak,Dr. Heffron,2870,2073,35729,20,02/07/25,19:06:56,LP Aquarii,1.205888,0.884569
+Blodgett Peak,blodgett_peak,Dr. Heffron,2870,2073,35729,21,02/07/25,19:20:24,HD 216718,1.197605,0.876289
+Blodgett Peak,blodgett_peak,Dr. Heffron,2870,2073,35729,22,02/07/25,20:52:00,HD 2324,1.196577,0.875260
+Blodgett Peak,blodgett_peak,Dr. Heffron,2870,2073,35729,23,02/07/25,21:15:52,HD 4915,1.202692,0.881374
+Blodgett Peak,blodgett_peak,Dr. Heffron,2870,2073,35729,24,02/07/25,21:28:20,25 Ceti,1.204086,0.882775
+Blodgett Peak,blodgett_peak,Dr. Heffron,2870,2073,35729,25,02/07/25,21:39:00,HD 7449,1.212806,0.891488
+Cheyenne Mountain,cheyenne_mtn,Dr. Heffron,2883,2073,42551,26,03/09/25,20:01:14,Mu Fornacis,1.002037,0.619372
+Cheyenne Mountain,cheyenne_mtn,Dr. Heffron,2883,2073,42551,27,03/09/25,20:28:42,HD 16733,0.997083,0.614422
+Cheyenne Mountain,cheyenne_mtn,Dr. Heffron,2883,2073,42551,28,03/09/25,20:39:43,HD 17926,0.990820,0.608152
+Cheyenne Mountain,cheyenne_mtn,Dr. Heffron,2883,2073,42551,29,03/09/25,21:22:11,HD 22248,1.017372,0.634710
+Cheyenne Mountain,cheyenne_mtn,Dr. Heffron,2883,2073,42551,30,03/09/25,21:38:29,HD 24267,1.010417,0.627752
+Cheyenne Mountain,cheyenne_mtn,Dr. Heffron,2883,2073,42551,31,03/09/25,21:49:34,HD 25371,1.005112,0.622459
+Mount Rosa,mount_rosa,Dr. Heffron,3506,2073,47628,32,03/10/25,20:51:26,HD 17320,1.712420,1.284100
+Mount Rosa,mount_rosa,Dr. Heffron,3506,2073,47628,33,03/10/25,21:00:52,HD 18290,1.713554,1.285236
+Blue Mountain,blue_mountain,Dr. Heffron,3001,2073,49704,34,03/12/25,22:32:54,HD 32515,1.005577,0.558580
+Blue Mountain,blue_mountain,Dr. Heffron,3001,2073,49704,35,03/12/25,22:34:43,HD 32489,1.024913,0.577927
+Blue Mountain,blue_mountain,Dr. Heffron,3001,2073,49704,36,03/12/25,23:28:21,Sigma Columbae,1.038167,0.591175
+Green Mountain,green_mtn,Dr. Heffron,3085,2073,52620,37,03/14/25,22:02:58,HD 28388,1.081598,0.608383
+Green Mountain,green_mtn,Dr. Heffron,3085,2073,52620,38,03/14/25,23:29:28,HD 39891,1.084114,0.610899
+Green Mountain,green_mtn,Dr. Heffron,3085,2073,52620,39,03/14/25,23:33:45,HD 40555,1.067175,0.593963
+North Peak,north_peak,Dr. Heffron,3765,2073,130710,40,03/23/25,22:08:21,HD55892 (I Puppis),0.971032,-0.204457
+North Peak,north_peak,Dr. Heffron,3765,2073,130710,41,03/23/25,22:09:11,HD56455 (PR Puppis),0.980389,-0.195062
+North Peak,north_peak,Dr. Heffron,3765,2073,130710,42,03/23/25,22:11:40,HD56813,0.980642,-0.194839
+Old-Blyn Mtn,old_blyn_mtn,Jesse,650,43,22050,43,05/28/25,01:54:46,HD206088,1.363000,1.163940
+Old-Blyn Mtn,old_blyn_mtn,Jesse,650,43,22050,44,05/28/25,01:58:38,HD207098,1.325000,1.123220
+Old-Blyn Mtn,old_blyn_mtn,Jesse,650,43,22050,45,05/28/25,01:37:32,HD203387,1.305278,1.106947
+Ediz-Blyn Mtn,ediz_blyn_mtn,Jesse,650,6,40857,46,05/27/25,23:37:36,HD187150,0.678056,0.310656
+Ediz-Blyn Mtn,ediz_blyn_mtn,Jesse,650,6,40857,47,05/27/25,23:42:17,HD187663,0.747500,0.380100
+Ediz-Blyn Mtn,ediz_blyn_mtn,Jesse,650,6,40857,48,05/28/25,00:05:07,3 Cap,0.720556,0.353156
+Ediz-Blyn Mtn,ediz_blyn_mtn,Jesse,650,6,40857,49,05/28/25,00:07:30,HD192876,0.747500,0.380100
+Ediz-Blyn Mtn,ediz_blyn_mtn,Jesse,650,6,40857,50,05/28/25,00:08:03,HD192947/Algedi,0.741389,0.373989
+Hounds Tooth,hounds_tooth,Katalan,3067,1411,8789,51,06/27/25,22:47:52,HD199828,10.617400,10.538300
+Varley SE2 Squamish,varley_se2_squamish,Goose,1424,4,16678,52,06/11/25,00:30:21,Regulus,4.785800,4.635800
+Puhitempi Kuaikatete,puhitempi_kuaikatete,Katalan,2000,890,54512,53,12/31/25,01:11:53,EZ Cet,0.963100,0.526100
+Puhitempi Kuaikatete,puhitempi_kuaikatete,Katalan,2000,890,54512,54,12/31/25,01:12:17,53 Cet,0.937500,0.500600
+Puhitempi Kuaikatete,puhitempi_kuaikatete,Katalan,1877,890,51919,55,12/31/25,01:15:50,Baten Kaitos,0.888300,0.451900
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,56,02/05/26,19:09:46,HD 76600,6.038900,5.988800
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,57,02/05/26,19:09:59,HD 76525,6.084000,6.013000
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,58,02/05/26,19:11:35,SAO 117309,6.038600,5.988300
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,59,02/05/26,19:12:16,HD 77039,6.030300,5.980100
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,60,02/05/26,19:19:33,HD 78282,6.021600,5.971300
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,61,02/05/26,19:24:56,SAO 117493,6.057300,6.007100
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,62,02/05/26,19:24:57,HIP 45114,6.040200,5.989900
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,63,02/05/26,19:30:01,HIP 45592,6.044100,5.993800
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,64,02/05/26,19:30:24,SOA 117565,6.062400,6.012100
+Lucky Peak,lucky_peak,Katalan,1506,899,5590,65,02/05/26,19:33:57,HD 80537,6.045700,5.995400
+Baril Peak,baril_peak,Goose,2847,1010,74604,66,03/02/26,01:22:00,Alnitak,1.468900,0.798000
