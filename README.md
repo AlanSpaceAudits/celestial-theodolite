@@ -4,7 +4,7 @@ A tool for testing the shape of the Earth using star occultations behind mountai
 
 ## What It Does
 
-When a star disappears behind a mountain peak, the exact time tells us the star's precise position. Two geometric models predict where the star *should* be at that moment:
+When a star disappears behind a mountain peak, the exact time tells us the star's precise position within the celestial sphere model. Two geometric models predict where the star *should* be at that moment:
 
 - **Flat Earth (FE):** Simple rise-over-run angle from observer to peak — `arctan(height_difference / distance)`
 - **Globe Earth (GE):** Same angle minus a curvature correction — the "inscribed angle" that accounts for Earth's curve over the observer-to-peak distance

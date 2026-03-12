@@ -545,11 +545,17 @@ def _rmse_graph(peak_name, peak, pred_fe, pred_ge, inscribed_angles,
     )
 
     # Both panels share the same y-axis scale for fair visual comparison.
-    # 1.35x headroom leaves space for annotations above the bars.
-    y_max = max(theta_fe, fe_obs_mean, theta_ge, ge_obs_mean) * 1.35
+    # Handle negative observed means (e.g., North Peak GE) by extending y-axis below 0.
+    y_max_val = max(theta_fe, fe_obs_mean, theta_ge, ge_obs_mean)
+    y_min_val = min(0, fe_obs_mean - 2 * sigma, ge_obs_mean - 2 * sigma)
+    y_range = y_max_val - y_min_val
+    y_max = y_max_val + y_range * 0.35      # headroom for annotations
+    y_min = y_min_val - y_range * 0.05 if y_min_val < 0 else 0
     for ax in (ax_fe, ax_ge):
-        ax.set_ylim(0, y_max)
+        ax.set_ylim(y_min, y_max)
         ax.set_ylabel("Angle (°)", fontsize=12)
+        if y_min < 0:
+            ax.axhline(y=0, color="#999999", linewidth=0.8, zorder=1)
 
     # ────────────────────────────────────────────────────
     #  LEFT PANEL — Flat Earth (green)
@@ -621,8 +627,23 @@ def _rmse_graph(peak_name, peak, pred_fe, pred_ge, inscribed_angles,
     mpl.rcParams['hatch.color'] = "#e91e90"
 
     # Magenta bar: observed mean EL, with ±2σ error bars
-    ax_ge.bar(0.55, ge_obs_mean, width=0.5, color="#e91e90", edgecolor="none",
-              label="Observed mean", zorder=2)
+    # When observed mean is negative (below geometric horizon), use hatched style
+    # like the curvature drop zone to visually show the below-horizon portion.
+    if ge_obs_mean < 0:
+        # Solid bar from 0 to ge_obs_mean (draws downward)
+        ax_ge.bar(0.55, ge_obs_mean, width=0.5, color="#f8bbd0",
+                  edgecolor="#e91e90", linewidth=0.8, hatch="//",
+                  label="Observed mean", zorder=2)
+        below_m = d * math.tan(math.radians(abs(ge_obs_mean)))
+        ax_ge.text(0.55, ge_obs_mean / 2,
+                   f"below horizon\n{deg_to_dms(abs(ge_obs_mean))}\n({below_m:.1f} m)",
+                   fontsize=8, color="#ad1457", ha="center", va="center",
+                   bbox=dict(boxstyle="round,pad=0.2", facecolor="white",
+                             edgecolor="#e91e90", alpha=0.85),
+                   zorder=5)
+    else:
+        ax_ge.bar(0.55, ge_obs_mean, width=0.5, color="#e91e90", edgecolor="none",
+                  label="Observed mean", zorder=2)
     ax_ge.errorbar(0.55, ge_obs_mean, yerr=2 * sigma, fmt="none",
                    ecolor="black", capsize=6, capthick=1.5, linewidth=1.5, zorder=3)
 
